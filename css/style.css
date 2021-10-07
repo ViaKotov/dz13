@@ -1,0 +1,185 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.width{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top .header__nav .header__nav-menu .header__nav-li{
+    display: inline;
+}
+.header__top .header__nav .header__nav-menu .header__nav-hamburger{
+    display: none;
+}
+.header__top .header__nav .header__nav-menu .header__nav-li:not(:last-child){
+    padding: 0 15px 0 0;
+}
+
+.header__top .header__nav .header__nav-menu .header__nav-li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 10px;
+    color: rgb(88, 88, 88);
+    border-bottom: solid 3px transparent;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.header__top .header__nav .header__nav-menu .header__nav-li a:hover{
+    text-decoration: none;
+    border-bottom-color: #5094f2;
+}
+
+
+
+.main__logo{
+    background: url('./../images/container-bg.png') no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 58px;
+}
+
+.main__logo .main__product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__logo .main__product .main__product-thumb, 
+.main__logo .main__product .main__product-text{
+    color: white;
+}
+
+.main__logo .main__product .main__product-thumb .main__product-img{
+    margin: 0 auto;
+}
+
+.main__logo .main__product .main__product-text .main__product-title{
+    font-size: 36px;
+}
+
+.main__logo .main__product .main__product-text .main__product-description p{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.main__product-button{
+    margin: 36px 0 0 0;
+}
+
+.main__logo .main__product a{
+    position: relative;
+    background-color: #5094f2;
+    border: none;
+    font-size: 24px;
+    padding: 2px 20px 2px 40px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+.main__logo .main__product a:after{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 5px;
+    left: 7px;
+    background-image: url("../images/btn_bg.png");
+    width: 23px;
+    height: 23px;
+}
+
+.main__logo .main__product a:hover{
+    background-color: #3d72bb;
+}
+
+
+.main__blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.main__blocks .main__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__blocks .main__block .main__block-text{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main__blocks .main__block .main__block-text .main__block-title{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #5094f2;
+}
+
+.main__blocks .main__block .main__block-text .main__block-description{
+    font-size: 12px;
+    color: #6f7173;
+    padding: 0 30px;
+}
+
+.shop__content{
+    margin-bottom: 94px;
+}
+
+.shop__content .shop__content-header{
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: left;
+    width: 100%;
+    color: #6f7173;
+}
+
+
+.shop__content .shop__container-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shop__content .shop__container-content .shop__content-thumb, 
+.shop__content .shop__container-content .shop__content-description{
+    width: 50%;
+}
+
+
+.shop__content .shop__container-content .shop__content-description .shop__content-title{
+    padding: 0 0 10px;
+    font-size: 24px;
+    color: #6f7173;
+}
+
+.shop__content .shop__container-content .shop__content-description .shop__content-text{
+    color: #6f7173;
+    line-height: 32px;
+}
+
+.footer__copyright{
+    margin: 61px 0 0 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px gray;
+}
+
+.footer__copyright .footer__copyright-text{
+    font-size: 14px;
+    color: #6f7173;
+    align-self: center;
+}
